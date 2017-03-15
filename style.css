@@ -1,0 +1,49 @@
+body{
+	margin:0;
+}
+small{
+	display:block;
+}
+header{
+	display:flex;
+	justify-content:space-between;
+}
+ul{
+	padding-left:0;
+
+}
+li{
+	display:inline-block;
+	padding-right: 15px;
+
+}
+a{
+	text-decoration:none;
+	text-transform:uppercase;
+	border:solid 1px;
+	padding:3px;
+	border-radius:5px;
+}
+.content{
+	display:flex;
+	justify-content:space-between;
+	align-self: flex-end;
+	
+}
+.content ul{
+	margin:0;
+
+}
+.main{
+	background-color:lightblue;
+}
+.contain li{
+	display: flex;
+	flex-direction:column;
+	
+}
+.container{
+	padding:0 30px;
+	margin:0 auto 0 auto;
+	border-bottom:solid 3px purple;
+}
